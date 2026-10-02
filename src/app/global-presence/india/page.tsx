@@ -407,6 +407,7 @@ export default function IndiaPage() {
             ))}
           </div>
           <aside className={styles.networkIntro} aria-labelledby="network-title">
+            <Icon name="globe" className={styles.networkIcon} />
             <span className={styles.eyebrow}>Our International Network</span>
             <h2 id="network-title">Local expertise. Global collaboration.</h2>
             <p>
